@@ -1,0 +1,111 @@
+.{
+   
+}
+
+.title{
+  -webkit-text-stroke: 0.5px rgb(34, 33, 33);
+  color: rgb(16, 0, 245); 
+  height: 150PX;
+  text-align:center;
+  padding: 1px;Gtext-align:center; 'Times New Roman', Times, serif;
+ width: 100%;
+ font-size: 50px;
+ 
+}
+
+
+
+.contenedor{
+  width:102%;
+  max-width: 3500px;
+  min-width: 550px;
+overflow: hidden;
+
+
+}
+
+body {
+  margin: 0px;
+  height: 800px;
+  background-image: url(/imagen/circulos\ -\ copia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed; scroll
+  
+}
+  
+div{ 
+  text-align: center;
+  padding: 0px;
+top: 50%;
+left: 50%;
+color: rgb(10, 10, 10);
+}
+
+
+
+  .titles{text: center;
+    padding: px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#06f812;
+    }
+
+.pdfview{
+position:relative;
+margin: auto;
+display: block;
+width: 600px;
+height: 600px;
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20 px 0 rgba(0,0,0, 0.19);
+cursor: pointer;
+}
+
+.boton {
+  border: 3px solid #16A085; /*anchura, estilo y color borde*/
+  padding: 5px; /*espacio alrededor texto*/
+  background-color: #1ABC9C ; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration:solid; /*decoración texto*/
+  text-transform:none; /*capitalización texto*/
+  font-family: 'georgia', sans-serif; /*tipografía texto*/
+  border-radius: 15px; /*bordes redondos*/
+  background-color: rgba(255, 255, 255, 0);
+    color: rgba(0, 0, 0, 0);
+    border: 2px solid #1abc9c00; /* Green */
+   
+  }
+ 
+
+  figure{
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    overflow:hidden;
+  
+  }
+  
+  figcaption{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(248, 248, 248);
+    transition: all 0.7s;
+    background:rgba(6, 7, 7, 0.644);
+    position:absolute;
+    left: 0px;
+    bottom: -150px;
+    width: 94%;
+    padding: 5%;
+  }
+
+  figure:hover figcaption{
+    bottom: 4px;
+  }
+  img{
+    height: 270px;
+    width: 190px;
+   } 
+    
+    
+    

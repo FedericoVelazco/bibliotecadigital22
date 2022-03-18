@@ -1,0 +1,115 @@
+body{
+  
+
+}
+.contenedor{
+  width:102%;
+  max-width: 3500px;
+  min-width: 550px;
+overflow: hidden;
+min-width: 550px;
+margin: 15px;
+}
+video{
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+top: 50%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+z-index: -1;
+}
+footer{
+  position: fixed;
+  color: rgb(8, 218, 255);
+  margin: 300px;
+  text-align: center;
+  background-attachment: fixed; scroll
+  
+}
+
+  .title{
+    -webkit-text-stroke: 0.8px rgb(253, 245, 245);
+    color: #800080; 
+    height: 90PX;
+    text-align:center;
+    padding: 15px; text-align:center;eorgia, 'Times New Roman', Times, serif;
+  width: 100%;
+   font-size: 50px;
+   
+   
+   
+  }
+
+  .subtitle{
+    text-align:left;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#fa0b0b ;
+  }
+  .boton {
+    border: 3px solid #0b83f3; /*anchura, estilo y color borde*/
+    padding: 5px; /*espacio alrededor texto*/
+    background-color: #dbdbdb81 ; /*color botón*/
+    color: #030303; /*color texto*/
+    text-decoration:solid; /*decoración texto*/
+    text-transform:none; /*capitalización texto*/
+    font-family: 'georgia', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    }
+    
+    .titlesub{
+      text-align:left;
+    padding: -0cm 30px;
+    font-family: 'Roboto', sans-serif;
+  color:#1b0a1b;
+    }
+    }
+contenedor{
+  height: 150px;
+  width: 250px;
+  background-image: url(https://cdn.slidesharecdn.com/ss_thumbnails/geografia-190522223127-thumbnail-4.jpg?cb=1558564335);
+  background-repeat:no-repeat;
+}
+
+figure{
+  margin:0;
+  display: inline-block;
+  position: relative;
+  overflow:hidden;
+ 
+}
+
+figcaption{
+  color: rgb(255, 255, 255);
+  transition: all 0.4s;
+  background:rgba(0, 0, 0, 0.651);
+  position:absolute;
+  left: 5px;
+  bottom: -150px;
+  width: 90%;
+  padding: 3%;
+  }
+  figure:hover figcaption{
+    bottom: 9px;
+  }
+  img{
+    padding: 5px;
+    margin: 0px;
+    height: 160px;
+    width: 250px;
+  
+  }
+
+  .main{
+    width: 70%;
+    background: #0b83f3;
+    padding: 20px
+    float:left;
+    box-sizing:border-box;
+  }
+  
+ 
+ 
+
+
